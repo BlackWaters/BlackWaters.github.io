@@ -18,12 +18,15 @@ comments: true
 
 ### 测试标题3
 
-{% highlight css %}
+{% highlight c++ %}
+#include <iostream>
 
-#container {
-  float: left;
-  margin: 0 -240px 0 0;
-  width: 100%;
+using namespace std;
+
+int main()
+{
+	cout <<"Hello World."<<endl;
+    return 0;
 }
 {% endhighlight %}
 
@@ -32,8 +35,8 @@ comments: true
 行内公式:   \\( x^2+y^2=z^2 \\) 
 
 行间公式:
-$$
+\\[
 x^2+y^2=z^2 \tag{1}
-$$
+\\]
 
 	//test over
