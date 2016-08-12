@@ -13,7 +13,7 @@ url:                https://blackwaters.github.io/
 # Jekyll
 permalink:          /:title/
 markdown:           kramdown
-highlighter:        pygments
+highlighter:        rouge
 kramdown:
   input:            GFM
   auto_ids:         true
