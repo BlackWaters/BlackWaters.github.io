@@ -3,7 +3,7 @@ layout: post
 title: "【2016沈阳网赛】odd-even number"
 date: 2016-09-19
 excerpt: "题解"
-tags: [ACM, 2016沈阳网络赛]
+tags: [ACM, 2016网络赛]
 comments: true
 ---
 
