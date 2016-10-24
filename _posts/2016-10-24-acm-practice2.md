@@ -122,7 +122,7 @@ int main()
 
 using namespace std;
 
-int n,m,way[4][2]={{0,1},{0,-1},{-1,0},{1,0}};
+int n,m,way[4][2]={ {0,1},{0,-1},{-1,0},{1,0} };
 bool vis[maxn][maxn],qvis[maxn][maxn];
 char s[maxn][maxn];
 struct node
