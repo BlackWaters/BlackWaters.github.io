@@ -4,7 +4,7 @@ title: "你相信奇迹吗"
 date: 2017-06-06
 excerpt: "Jared Kopf成都站观后感."
 tags: [magic]
-feature: https://static1.squarespace.com/static/53047210e4b03a7f588996de/55989046e4b078c942dee7ee/5598a495e4b0af241ed4ee04/1436066966818/rings1+copy.jpg?format=2500w
+feature: 'assets/img/rings.jpg'
 comments: true
 ---
 
