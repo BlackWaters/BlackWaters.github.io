@@ -1,0 +1,51 @@
+# depslib dependency file v1.0
+1557117255 source:d:\algorithm\minwise\main.cpp
+	<iostream>
+	"stopwords.h"
+	<map>
+	<cstdio>
+	<cstdlib>
+	<cstring>
+	"minwise.h"
+	"ReadFile.h"
+
+1556859726 d:\algorithm\minwise\stopwords.h
+	<string>
+	<map>
+	<cstdio>
+
+1557030277 d:\algorithm\minwise\include\stopwords.h
+	<string>
+	<map>
+	<cstdio>
+
+1557029969 source:d:\algorithm\minwise\src\readfile.cpp
+	"ReadFile.h"
+	<cstdlib>
+	<cstdio>
+	<cstring>
+	<string>
+
+1557032314 d:\algorithm\minwise\include\readfile.h
+	<vector>
+	<iostream>
+	<string>
+	<cstdlib>
+	<cstdio>
+	<cstring>
+	"stopwords.h"
+	<map>
+
+1557031877 source:d:\algorithm\minwise\src\minwise.cpp
+	"minwise.h"
+	<map>
+	<iostream>
+	<cmath>
+
+1557031877 d:\algorithm\minwise\include\minwise.h
+	<iostream>
+	<map>
+	<vector>
+	<cstdio>
+	<algorithm>
+
