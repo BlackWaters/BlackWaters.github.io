@@ -8,7 +8,7 @@ logo:               'assets/img/logo.jpg'
 background:         'assets/img/background.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             zh_CN
-url:                https://blackwaters.github.io/
+url:                https://ruinanblog.com
 force-https: true
 
 # Jekyll
