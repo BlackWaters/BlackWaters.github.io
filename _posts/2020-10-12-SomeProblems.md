@@ -85,7 +85,7 @@ tags: [ACM]
     p2=[(n+1)(b-1)-\frac{2a+b}{2}(b-1)]^2
 \\]
 
-所以总数即为\\(ans=total-p1-p2\\)
+所以总数即为\\(ans=total-4p1-4p2\\)
 
 ## Lamps
 
