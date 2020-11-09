@@ -79,11 +79,15 @@ corner case和proof比较有意思。
 
 > No matter how we split the array, the cost of a partition will always be the same.
 
+- 2020.11.01
+
 我的智商受到了侮辱。
 
 仔细看证明。
 
 ## [AtCoder Beginner Contest 182 F - Valid payments](https://atcoder.jp/contests/abc182/tasks/abc182_f)
+
+- 2020.11.09
 
 [Jonathan Paulson's solution in this round](https://www.youtube.com/watch?reload=9&v=VsUvBvgeb9Y&feature=youtu.be)
 
