@@ -82,3 +82,23 @@ corner case和proof比较有意思。
 我的智商受到了侮辱。
 
 仔细看证明。
+
+## [AtCoder Beginner Contest 182 F - Valid payments](https://atcoder.jp/contests/abc182/tasks/abc182_f)
+
+[Jonathan Paulson's solution in this round](https://www.youtube.com/watch?reload=9&v=VsUvBvgeb9Y&feature=youtu.be)
+
+这个博主的解决思路实在是非常好理解。
+
+这题感觉还是挺难分析的，首先是看了一段别人的代码，大概能看出来是考虑X的最小表示中，每个位置的进位。
+
+我们考虑由X来构造y，比如我们用\\(g_i\\)来表示X第i个bit的值，我们能发现：
+
+- 当\\(g_i > 0\\)时，我们只要在\\(g_i\\)的位置上填上一定的值导致进位的话，我们得到的y一定在i位上不存在值。
+- 当\\(g_i = 0\\)时，我们不能在当前位置上填任何数，因为任何值都会导致y在i上有值。
+
+如此我们得到一个dp的做法：
+\\[
+    我们设dp(i,j)表示：从第n个位置考虑到i，当前第i个位置上，是否存在进位(bool j)，所能得到的所有方案数。
+\\]
+
+这样我们发现\\(dp(i,j)可以从dp(i+1,k)转移过来，至于是否进位，这个很好分情况讨论\\)
