@@ -129,7 +129,7 @@ corner case和proof比较有意思。
 \\]
 化简得到
 \\[
-    n*sum_{i=1}^{log^n} {\frac{1}{2}}^2 = n*(1-\frac{1}{n}) = n-1
+    n*\sum_{i=1}^{log^n} \frac{1}{2}^2 = n*(1-\frac{1}{n}) = n-1
 \\]
 所以近似是\\(O(n)\\)的。
 
